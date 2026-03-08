@@ -1,0 +1,18 @@
+//con parametros
+@mixin grilla ($column,$row){ 
+    grid-template-columns: $column;
+    grid-template-rows: $row;
+}
+//sin parametros
+@mixin flex { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//con/sin parametros
+@mixin imagen ($ancho){ 
+   width: $ancho;
+   height: 100%;
+   object-fit: cover;
+}

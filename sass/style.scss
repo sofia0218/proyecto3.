@@ -1,0 +1,29 @@
+//use (antiguamente import)
+@use "utilities/variables" as *;
+@use "utilities/listas" as *;
+
+
+
+//nesting
+header { 
+    background-color: $color-principal;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    img { 
+        width: 200px/(100);
+   }
+    .menu{ 
+        ul { 
+            background-color: $color-secundario;
+            display: flex;
+
+        }
+    } 
+
+    }
+
+main { 
+    background-color: list($lista-colores,3);
+}
+ 

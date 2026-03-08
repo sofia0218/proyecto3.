@@ -1,0 +1,19 @@
+header {
+  background-color: rgb(82, 23, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  width: 2px;
+}
+header .menu ul {
+  background-color: red;
+  display: flex;
+}
+
+main {
+  background-color: list(blue, pink, green, yellow red, 3);
+}
+
+/*# sourceMappingURL=main.css.map */
